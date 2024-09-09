@@ -1,0 +1,86 @@
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .product-images {
+    width: 50%;
+  }
+  
+  .product-info {
+    width: 45%;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .product-carousel {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .product-carousel img {
+    max-height: 300px;
+    object-fit: contain;
+  }
+  .buy{
+    font-size: 20px;
+    background-color: red;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-info h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.product-info h3 {
+  color: #e63946;
+  font-size: 24px;
+}
+
+.product-description {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0 20px;
+  line-height: 1.6;
+}
+
+.buy {
+  font-size: 20px;
+  background-color: #e63946;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy:hover {
+  background-color: #d62828;
+}
+
+/* Hover effects for images */
+.product-images img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

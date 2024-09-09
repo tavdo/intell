@@ -1,0 +1,41 @@
+.product-carousel-container {
+    position: relative;
+    max-width: 100%;
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .thumbnails {
+    display: flex;
+    overflow-x: auto;
+    max-width: 100%;
+    padding: 10px 0;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+  }
+  
+  .thumbnails::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome */
+  }
+  
+  .thumbnail {
+    width: 80px;
+    height: 80px;
+    margin: 0 5px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border 0.3s ease;
+  }
+  
+  .thumbnail.active {
+    border: 2px solid #e63946;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.1);
+  }
+  
