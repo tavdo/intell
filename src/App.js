@@ -10,12 +10,13 @@ const App = () => {
   const product = {
     title: '4MP IP Camera - Bullet',
     description: 'This is a high-quality IP camera with great features.',
-    price: '264.55 ₾',
+    price: '264.55 GE',
     images: [
       'https://via.placeholder.com/500x300',
       'https://via.placeholder.com/500x300',
       'https://via.placeholder.com/500x300'
     ],
+
   };
 
   const specs = [
